@@ -9,23 +9,41 @@
 
 header{
   background-color: #ff7c7c;
-  height:100px;
+  /* height:88px; */
+  position: fixed;
+  width: 100%;
 }
 
-
+.header{
+  text-align: center;
+  margin: 17px 0;
+}
 
 .container{
   display: flex;
   height: 100vh;
 }
+
 .first{
   background-color: #7cacff;
-  width: 10%;
+  padding: 104px 16px 8px 16px;
+  /* width: 10%; */
+  flex: 1 1 auto;
+  order: 2;
 }
 
 .second{
   background-color: #82ff7c;
-  width: 90%;
+  padding: 104px 16px 8px 16px;
+  flex: 0 0 320px;
+  /* width: 90%; */
+  order: 1;
+}
+.third{
+  background-color: #f4ff7c;
+  padding: 104px 16px 8px 16px;
+  flex: 0 0 320px;
+  order: 3;
 }
 
 footer{
